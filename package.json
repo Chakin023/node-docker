@@ -12,8 +12,11 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "connect-redis": "^7.1.1",
     "express": "^4.21.0",
-    "mongoose": "^8.7.0"
+    "express-session": "^1.18.1",
+    "mongoose": "^8.7.0",
+    "redis": "^4.7.0"
   },
   "devDependencies": {
     "nodemon": "^3.1.7"
