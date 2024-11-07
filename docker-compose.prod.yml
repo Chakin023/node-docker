@@ -1,4 +1,4 @@
-version: '3'
+version: "3"
 services:
   nginx:
     ports:
@@ -6,8 +6,9 @@ services:
   node-app:
     build:
       context: .
-      args: 
+      args:
         NODE_ENV: production
+
     environment:
       - NODE_ENV=production
       - MONGO_USER=${MONGO_USER}
