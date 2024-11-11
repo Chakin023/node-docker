@@ -5,7 +5,7 @@ services:
       - "80:80"
   node-app:
     deploy:
-      replicase: 8
+      replicas: 8
       restart_policy:
         condition: any
       update_config:
